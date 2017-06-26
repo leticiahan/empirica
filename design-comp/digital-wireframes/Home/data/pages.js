@@ -1,0 +1,1 @@
+;(function(global) { global.DATA = [{"name":"Home","id_page":65004571,"mtime":1482022889,"parent":null,"version_of":null,"version_type":0,"main_version":"0","sort_order":0,"is_active":1,"shot":"https:\/\/s3.amazonaws.com\/mfc.uxpin\/8\/6\/8\/c\/3587aeba75d76f65ea50e6b2bcfefdb4e338.jpg"}]; })(window);

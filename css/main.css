@@ -1,0 +1,536 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    max-width: 1360px;
+    margin: 0;
+}
+
+header {
+    margin: 5px 0;
+}
+
+header img {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.center {
+    margin: 0 auto;
+    width: 50%;
+    padding: 10px;
+}
+
+nav {
+    max-width: 1360px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 20px auto;
+    width: 50%;
+    padding: 0;
+    /**overflow: hidden;**/
+    text-align: center;
+}
+
+nav ul li {
+    /**float: left;**/
+    padding-right: 25px;
+    line-height: 36px;
+    display: inline-block;
+}
+
+nav ul li:last-child {
+    padding-right: 0;
+}
+
+nav li a {
+    font-size: 16px;
+    font-weight: 600;
+    display: block;
+    text-align: center;
+    padding: 0px;
+    text-decoration: none;
+    color: #000;
+}
+
+.active, nav li a:hover {
+    border-bottom: 3px solid #000;
+}
+
+.image-container {
+    width: 100%;
+    margin: 0;
+}
+
+.image-box {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.full-image {
+    width: 100%;
+    margin: 0;
+}
+
+.about {
+    margin: 50px auto;
+    width: 70%;
+}
+
+.about p {
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 36px;
+    text-align: center;
+}
+
+.service-section {
+    margin: 0;
+    padding: 0;
+    background-color: #30415d;
+    overflow: auto;
+}
+
+.half-width {
+    width: 50%;
+    float: left;
+}
+
+.service {
+    margin: 0;
+    padding: 50px 100px;
+    text-align: center;
+}
+
+.service a {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 36px;
+    text-decoration: none;
+    padding-top: 15px;
+    letter-spacing: 1.2px;
+}
+
+.service img {
+    display: block;
+    margin: 30px auto;
+    width: 90%;
+    height: 176px;
+    object-fit: cover;
+}
+
+footer {
+    clear: both;
+    width: 100%;
+}
+
+.text-box {
+    margin: 0 auto;
+    padding-bottom: 50px;
+    width: 50%;
+    border-bottom: 2px solid #000;
+}
+
+.text-box h6 {
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.text-box h6 a {
+    text-decoration: none;
+    color: #30415d;
+    border-bottom: 3px solid #30415d;
+    padding-bottom: 5px;
+}
+
+.text-box h6 a:hover {
+    color: #f7ce3e;
+    border-bottom: 3px solid #f7ce3e;
+}
+
+.text-box p {
+    font-size: 14px;
+    line-height: 36px;
+    text-align: center;
+}
+
+.button {
+    margin: 0 auto;
+    width: 50%;
+    background-color: #192231;
+    border: none;
+    color: #fff;
+    padding: 25px 15px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #f7ce3e;
+    transition: background-color 0.1s ease-in-out;
+}
+
+.social-media {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.social-media ul {
+    list-style-type: none;
+    margin: 50px auto;
+    width: 50%;
+    padding: 0;
+    text-align: center;
+}
+
+.social-media ul li {
+    display: inline-block;
+    width: 20%;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.social-media img {
+    width: 100%;
+}
+
+.social-media ul li a {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0;
+    text-decoration: none;
+    color: #30415d;
+}
+
+.social-media ul li a:hover {
+    color: #f7ce3e;
+}
+
+.copyright-box {
+    border-top: 1px solid #000;
+    padding: 5px 0;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 14px;
+}
+
+.copyright a {
+    text-decoration: none;
+    color: #000;
+}
+
+.copyright a:hover {
+    color: #f7ce3e;
+    border-bottom: 3px solid #f7ce3e;
+}
+
+
+/**** ABOUT PAGE *****/
+
+.about-text-top {
+    margin: 50px auto;
+    width: 40%;
+    padding: 25px 25px;
+    border-top: 2px solid #ccc;
+    border-bottom: 2px solid #ccc;
+}
+
+.about-text-top p {
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.about-title {
+    margin: 50px auto 0 auto;
+    width: 63%;
+}
+
+.about-title p {
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 25px;
+}
+
+.about-title p span {
+    font-weight: bold;
+}
+
+.small-line {
+    width: 40px;
+    height: 3px;
+    margin-top: 4px;
+    margin-bottom: 20px;
+    background-color: #000;
+}
+
+.left-about-text {
+    width: 55%;
+    float: right;
+    margin-right: 50px;
+}
+
+.left-about-text p {
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.right-about-text {
+    width: 55%;
+    float: left;
+    margin-left: 50px;
+}
+
+.right-about-text p {
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.about-container {
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    overflow: auto;
+}
+
+
+/***** SERVICES PAGE *****/
+
+.main-box {
+    margin: 50px 100px 50px 100px;
+    overflow: auto;
+}
+
+.service-box {
+    padding: 0 50px;
+}
+
+.service-box img {
+    width: 100%;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+
+.service-box h1 {
+    font-size: 20px;
+}
+
+.service-text {
+    margin-top: 15px;
+}
+
+.service-text p {
+    font-size: 16px;
+    line-height: 32px;
+}
+
+.footer-container {
+    border-top: 2px solid #ccc;
+    padding-top: 25px;
+}
+
+
+/****** CONTACT PAGE *****/
+
+.top-box {
+    width: 100%;
+    background-color: #192231;
+    padding: 5px 0;
+}
+
+.top-box h1 {
+    font-family: 'PT Serif', serif;
+    font-size: 40px;
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.contact-description {
+    margin: 0 auto;
+    padding: 50px 100px;
+    width: 50%;
+    border-bottom: 2px solid #ccc;
+}
+
+.contact-description p {
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.contact-section {
+    padding: 50px 30px;
+    margin: 20px 0;
+    overflow: auto;
+}
+
+.contact-info {
+    margin: 0 auto;
+    width: 60%;
+}
+
+.contact-info h2 {
+    font-size: 20px;
+}
+
+.contact-info p {
+    font-size: 16px;
+}
+
+.contact-info .icons {
+    padding: 10px 0;
+    word-spacing: 15px;
+}
+
+.contact-info .icons a {
+    text-decoration: none;
+    color: #192231;
+}
+
+.contact-info .icons a:hover {
+    color: #f7ce3e;
+}
+
+#contact-form input[type="text"], #contact-form input[type="email"], #contact-form textarea, #contact-form button[type="submit"] {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+#contact-form {
+    width: 75%;
+    overflow: hidden;
+}
+
+fieldset {
+    border: medium none !important;
+    margin: 5px 0;
+    padding: 5px;
+}
+
+#first-name-box {
+    float: left;
+    width: 47%;
+}
+
+#last-name-box {
+    width: 45%;
+    clear: right;
+}
+
+#contact-form input[type="text"], #contact-form input[type="email"], #contact-form textarea {
+    width: 98%;
+    border: 1px solid #ccc;
+    padding-left: 5px;
+}
+
+#contact-form textarea {
+    height: 100px;
+    max-width: 100%;
+    resize: none;
+}
+
+#contact-form button[type="submit"] {
+    cursor: pointer;
+    padding: 5px 15px;
+    border: none;
+    background-color: #192231;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+#contact-form button[type="submit"]:hover {
+    background: #f7ce3e;
+    transition: background-color 0.1s ease-in-out;
+}
+
+/*** CLIENTS ***/
+.documents {
+    margin: 10px auto;
+    width: 75%;
+}
+.documents h2 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.pdf-container {
+    margin: 50px auto;
+    width: 75%;
+    overflow: hidden;
+}
+
+.pdf {
+    min-height: 170px;
+    width: 20%;
+    background: #dbdbdb;
+    position: relative;
+    float: left;
+    margin: 20px;
+}
+
+.pdf i {
+    display: block;
+    font-size: 40px;
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+    transition: .1s ease;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.file-text-overlay {
+    transition: .1s ease;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #f7ce3e;
+    opacity: 0;
+}
+
+.pdf:hover i {
+    opacity: 0;
+}
+
+.pdf:hover .file-text-overlay {
+    opacity: 1;
+}
+
+.file-text-overlay a {
+    color: #000;
+    font-size: 18px;
+    text-decoration: none;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+}

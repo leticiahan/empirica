@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Home - UXPin Preview</title>
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+
+    <link rel="apple-touch-icon" href="data/_img_ios-logo-180x180-4f260175.png">
+    <link rel="icon" type="image/png" href="data/_img_favicon-90cb8314.ico">
+    <link rel="icon" sizes="180x180" href="data/_img_ios-logo-180x180-4f260175.png">
+    <link rel="shortcut icon" href="data/_img_favicon-90cb8314.ico">
+
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,minimal-ui">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    
+
+    <link rel="stylesheet" href="data/collaborate.uxpincdn.com_styles__review-3c7a1215.css">
+    
+
+    
+    <!-- auto-generated on export -->
+    <link rel="stylesheet" href="data/fonts.css">
+
+    
+    
+</head>
+
+
+<body ng-controller="HomeController" class="loading" ng-class="{'loading' : isLoading, 'left-panel-active' : (isVisible && sidebarVisible), 'sitemap-visible' : (sitemapVisible && sidebarVisible), 'panel-visible' : (panelVisible && sidebarVisible), 'specification-visible': (specificationVisible && sidebarVisible), 'adding-comment' : isAddingComment, 'dragging' : dragging, 'no-toolbar' : noToolbar || isParticipant, 'crosshair-cursor' : showCrosshairCursor, 'sidebar-collapsed' : sidebarVisible === false, 'mac': isMac}" ng-keydown="keyDown($event)">
+    
+
+    <div ui-view></div>
+    <div ui-view="commentsFilter"></div>
+    <div ng-class="{'fade-in' : specificationFadeIn}" ui-view="specification"></div>
+    <div ng-class="{'fade-in' : panelFadeIn}" ui-view="comments"></div>
+    <div ng-class="{'fade-in' : sitemapFadeIn}" ui-view="sitemap"></div>
+    <div ui-view="nav"></div>
+    <div ui-view="canvas"></div>
+    <section id="responsive-toolbar" adjust-to-viewport-size>
+        <a class="only-icon-font icon-font-arrow show-main-toolbar" ng-click="showToolbar()" toggle-visibility toggle-flag="!isToolbarVisible()" toggle-width-open="34" toggle-width-closed="0" ng-if="!params.isDocument">
+            Show main toolbar
+            <span class="tooltip bottom-arrow">Show main toolbar</span>
+        </a>
+        <div ui-view="approvalProcess"></div>
+        <pv-breakpoints breakpoints="breakpoints"></pv-breakpoints>
+        <ul ui-view="breadcrumbs" ng-if="breadcrumbsVisible" class="breadcrumbs"></ul>
+        <div ui-view="settings"></div>
+    </section>
+    <div ui-view="overlay"></div>
+    <div class="loader"></div>
+
+
+    <script type="text/javascript">
+    window.ApplicationConfiguration = {
+            project:{"id_project":6549537,"custom_font_css_url":"https://api2.uxpin.com/fonts/custom/css/file?id=663594","custom_fonts_url":"http://api.uxpin/fonts/custom/css/?id=663594","id_collection":1452132,"id_account":663594,"name":"Home","hash":"7da1e19ef66e073721a308b2be0b13c6e1dea300","type":"W","features":{"live_share":true,"user_testing":true,"password":true,"team_comments":true,"spec_mode":true,"spec_mode_styleguide":true,"comments_assignment":true},"settings":{"guides":{"65004571":[{"orientation":"horizontal","x":-729,"y":1367}],"65004650":[{"orientation":"horizontal","x":-972,"y":261.33333333333},{"orientation":"vertical","x":613.33333333333,"y":-706.66666666667}]}},"created_at":"2016-12-17T22:31:42Z","updated_at":"2016-12-18T01:01:29Z"},
+            userData:{"is_trial":false,"is_anonymous":true,"is_owner":false},
+            mode: 'export',
+            menuEnabled:true};
+    </script>
+
+    
+        <script type="text/javascript" src="data/collaborate.uxpincdn.com_scripts_engine-df157239.js"></script>
+        <script type="text/javascript" src="data/collaborate.uxpincdn.com_scripts_vendors-8b3928e9.js"></script>
+        <script type="text/javascript" src="data/collaborate.uxpincdn.com_scripts_app-be672901.js"></script>
+        
+    
+
+</body>
+
+
+</html>

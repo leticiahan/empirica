@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Empirica Advisors | Services</title>
+    <meta name="description" content="Empirica Advisors offers real estate appraisal reviews and evaluation services for banks. Contact now for more information.">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://use.fontawesome.com/17bf4badc0.js"></script>
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
+    <!--[if lt IE 9]>
+       <script src = "http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+     <![endif]-->
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="center">
+                <a href="#">
+                    <img src="img/logo.png" alt="logo">
+                </a>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="about.php">About</a></li>
+                <li><a href="services.php">Services</a></li>
+                <li><a href="contact.php" class="active">Contact</a></li>
+                <li><a href="<?php echo "client-login.php"; ?>">Returning Clients</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="top-box">
+                <h1>Get in touch</h1>
+            </div>
+            <div class="contact-description">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at porttitor sem.  Aliquam erat volutpat. Donec placerat nisl magna, et faucibus arcu condimentum sed. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at
+                    porttitor sem.  Aliquam erat volutpat.</p>
+            </div>
+            <div class="contact-section">
+                <div class="half-width">
+                    <div class="contact-info">
+                        <h2>Office</h2>
+                        <div class="small-line">
+                        </div>
+                        <p><i class="fa fa-phone" aria-hidden="true"></i> : 888.123.4567<br>
+                            <i class="fa fa-envelope-o" aria-hidden="true"></i> : info@empiricaadvisors.com
+                        </p>
+                        <div class="icons">
+                            <a href="#">
+                                <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle-thin fa-stack-2x" aria-hidden="true"></i>
+                                <i class="fa fa-twitter fa-stack-1x" aria-hidden="true"></i>
+                            </span>
+                            </a>
+                            <a href="#">
+                                <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle-thin fa-stack-2x" aria-hidden="true"></i>
+                                <i class="fa fa-facebook fa-stack-1x" aria-hidden="true"></i>
+                            </span>
+                            </a>
+                            <a href="#">
+                                <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle-thin fa-stack-2x"></i>
+                                <i class="fa fa-linkedin fa-stack-1x"></i>
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="half-width">
+                    <form id="contact-form" action="mailto:info@empiricaadvisors.com" method="post">
+                        <fieldset id="first-name-box">
+                            <input placeholder="First Name" type="text" tabindex="1" required>
+                        </fieldset>
+                        <fieldset id="last-name-box">
+                            <input placeholder="Last Name" type="text" tabindex="2" required>
+                        </fieldset>
+                        <fieldset>
+                            <input placeholder="Email Address" type="email" tabindex="3" required>
+                        </fieldset>
+                        <fieldset>
+                            <input placeholder="Subject" type="text" tabindex="4" required>
+                        </fieldset>
+                        <fieldset>
+                            <textarea placeholder="Message" tabindex="5" required></textarea></fieldset>
+                        <fieldset>
+                            <button type="submit" id="contact-submit">Done</button>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="copyright-box">
+            <div class="copyright">
+                <p>&copy; 2016 Empirica Advisors<br> Site by <a href="http://leticiahan.com">Leticia Han</a></p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
